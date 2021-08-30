@@ -1,5 +1,12 @@
 html, body {
     background-color: whitesmoke;
-    margin: 0;
+    margin-top: 20;
     padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    background-color: antiquewhite;
+    width: 70vw;
 }
