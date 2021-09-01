@@ -2,6 +2,7 @@ html, body {
     background-color: whitesmoke;
     margin-top: 20;
     padding: 0;
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -15,35 +16,40 @@ html, body {
     background-color: whitesmoke;
     width: 70vw;
     padding: 10 0;
-    display: flex;
-    flex-direction: row;
-    /*justify-content: space-around;*/
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;*/
+    
+    
 }
 
 .Header__nav ul{
     display: flex;
+    justify-content: space-around;
     
     padding: 0;
     list-style: none;
-
-    
 }
 
-.Header__nav ul li{
-    justify-content: center;
-    font-family: sans-serif;
+.Header__nav ul li a{
+    justify-items: space-around;
     font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
-.Main{
-
+.Main h1{
+    text-align: center;
 
 }
 
 .Main__text{
+    padding: 50px;
 
 }
 
 .Footer{
-
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
